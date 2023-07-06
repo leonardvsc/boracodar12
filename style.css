@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%; /*10px*/
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #7C3AED;
+}
+
+a {
+  text-decoration: none;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+
+  min-height: 100vh;
+}
+
+main {
+  padding-top: 0.8rem;
+}
+
+main .inner {
+  height: 100%;
+  background-color: #FBFAFF;
+  border-top-left-radius: 3.2rem;
+
+  padding: 4.8rem 3.2rem;
+}
+
+nav {
+  padding: 3.2rem 2.7rem 0 3.5rem;
+  
+}
+
+ul {
+  margin-top: 6rem;
+  list-style: none;
+  display: grid;
+  gap: 3.6rem;
+  
+  min-width: 11.5rem;
+}
+
+li a {
+  color: #CAB3FF;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  font-weight: 500;
+}
+
+a.active,
+a:hover{
+  color: white;
+  font-weight: 700;
+}
+
+a ion-icon {
+  font-size: 2rem;
+}
+
+/* Section Title + Avatar */
+
+section.title-avatar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1.1rem 2.4rem;
+}
+
+.avatar {
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 50%;
+}
+
+section h1 {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-size: 3.2rem;
+  color: #403937;
+
+}
