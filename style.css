@@ -188,7 +188,7 @@ section.kanban h2 {
 .card {
   padding: 2.4rem;
   background: #FFFFFF;
-  box-shadow: 0.1rem 0.1rem 2rem 0px #EAE2FD;
+  box-shadow: 0.1rem 0.1rem 2rem 0px #0000001f;
   border-radius: .8rem;
 
   line-height: 130%;
