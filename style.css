@@ -183,6 +183,7 @@ section.kanban h2 {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
+  height: 100%;
 }
 
 .card {
