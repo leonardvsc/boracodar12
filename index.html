@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Boracodar12 - KanBan</title>
+  <title>Boracodar12 - Kanban</title>
   <link rel="stylesheet" href="style.css">
 
   <!-- GOOGLE FONTES -->
@@ -13,6 +13,8 @@
 </head>
 <body>
   <div id="app">
+
+    <!-- NAVIGATION -->
     <nav>
       <img src="./assets/logo.svg" alt="Logo do site" class="logo">
 
@@ -43,15 +45,138 @@
         </li>
       </ul>
     </nav>
+
+    <!-- MAIN -->
     <main>
       <div class="inner">
+
+        <!-- HEADER -->
         <section class="title-avatar">
-          <h1>Meu KanBan <img src="./assets/pencil.svg" alt=""></h1>
+          <h1>Meu Kanban <img src="./assets/pencil.svg" alt=""></h1>
           <img src="https://github.com/leonardvsc.png" class="avatar" alt="avatar">
         </section>
 
+
+        <!-- FILTER -->
         <section class="filter">
-          
+          <button>
+            <ion-icon name="filter-outline"></ion-icon>
+            <span>Filtrar</span>
+          </button>
+          <div class="input-wrapper">
+            <ion-icon name="search-outline"></ion-icon>
+            <input
+            type="text"
+            placeholder="Busque por cards, assuntos ou responsáveis...">
+          </div>
+        </section>
+
+        <!-- KANBAN -->
+        <section class="kanban">
+
+          <div class="todo">
+            <h2>A fazer</h2>
+            <div class="cards">
+
+              <div class="card">
+                <h3>#boraCodar um Kanban 🧑🏻‍💻</h3>
+                <p>
+                  Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.
+                </p>
+                <div class="tags">
+                  <span>rocketseat</span>
+                  <span>desafio</span>
+                </div>
+              </div>
+
+              <div class="card">
+                <h3>Manter a ofensiva 🔥</h3>
+                <p>
+                  Manter minha atividade na plataforma da Rocketseat para não perder a ofensiva
+                </p>
+                <div class="tags">
+                  <span>rocketseat</span>
+                </div>
+              </div>
+
+              <div class="card">
+                <h3>Almoçar 🥗</h3>
+                <p>
+                  Me alimentar, aproveitando um momento de descanso para recarregar minhas energias durante o almoço
+                </p>
+                <div class="tags">
+                  <span>autocuidado</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="doing">
+            <h2>Fazendo</h2>
+            <div class="cards">
+
+              <div class="card">
+                <h3>Conferir o novo desafio 🚀 </h3>
+                <p>
+                  Conferir o novo projeto do #boraCodar para fazê-lo da melhor maneira possível
+                </p>
+                <div class="tags">
+                  <span>rocketseat</span>
+                  <span>desafio</span>
+                </div>
+              </div>
+
+              <div class="card">
+                <h3>Ser incrível 😎</h3>
+                <p>
+                  MSempre me lembrar de manter minha autenticidade e espalhar amor
+                </p>
+                <div class="tags">autocuidado
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="done">
+            <h2>Feito</h2>
+            <div class="cards">
+
+              <div class="card">
+                <h3>#boraCodar uma página de login 🧑‍💻</h3>
+                <p>
+                  Novo desafio do #boraCodar da Rocketseat, onde é proposto construir uma página de login.
+                </p>
+                <div class="tags">
+                  <span>rocketseat</span>
+                  <span>desafio</span>
+                </div>
+              </div>
+
+              <div class="card">
+                <h3>#boraCodar uma página de clima 🧑‍💻</h3>
+                <p>
+                  Novo desafio do #boraCodar da Rocketseat, onde é proposto construir uuma página de clima.
+                </p>
+                <div class="tags">
+                  <span>rocketseat</span>
+                </div>
+              </div>
+
+              <div class="card">
+                <h3>#boraCodar um conversor 🧑‍💻</h3>
+                <p>
+                  Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um conversor.
+                </p>
+                <div class="tags">
+                  <span>autocuidado</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
         </section>
       </div>
     </main>
